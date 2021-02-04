@@ -1,0 +1,31 @@
+
+
+
+<?php
+$saat = date(H);
+$dakika = date(i);
+
+?>
+<?php
+if (($saat <=9) && ($saat >=6))
+{
+echo "Günaydın";
+}
+elseif (($saat >=10) && ($saat <=15))
+{
+echo "Tünaydın";
+}
+elseif (($saat =23 and $dakika <=10))
+{
+echo "İyi Akşamlasr1";
+}
+elseif (($saat =23) and ($dakika <=59))
+{
+echo "İyi Akşamlar";
+}
+else
+{
+echo "İyi Geceler";
+}
+?>
+ 	
