@@ -1,0 +1,4 @@
+C:\Users\Handan\source\repos\OyuncuKayitSistemi\OyuncuKayitSistemi\obj\Debug\netcoreapp3.1\OyuncuKayitSistemi.csprojAssemblyReference.cache
+C:\Users\Handan\source\repos\OyuncuKayitSistemi\OyuncuKayitSistemi\obj\Debug\netcoreapp3.1\OyuncuKayitSistemi.AssemblyInfoInputs.cache
+C:\Users\Handan\source\repos\OyuncuKayitSistemi\OyuncuKayitSistemi\obj\Debug\netcoreapp3.1\OyuncuKayitSistemi.AssemblyInfo.cs
+C:\Users\Handan\source\repos\OyuncuKayitSistemi\OyuncuKayitSistemi\obj\Debug\netcoreapp3.1\OyuncuKayitSistemi.csproj.CoreCompileInputs.cache
