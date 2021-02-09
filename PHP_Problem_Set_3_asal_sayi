@@ -1,0 +1,39 @@
+// rastgele 1 ile 100 arasında  sayı üretelim 
+$rastgele = rand(1,100);
+
+// değişkeni tanımlıyoruz
+$asal_sayilar = "";
+
+// döngü
+for($i=2;$i<=$rastgele;$i++){
+	// sayı asal mı diye bir kontrol değişkeni oluşturuyoruz. 
+	// her sayı için başlangıçta kontrol 0 olacak. 
+	$kontrol = 0; 
+	
+	// $i sayısına kadar bir döngü kuruyoruz. 
+	// yani $i sayısına kadar böleni var mı diye kontrol ediyoruz. 
+	// eğer varsa kontrol 1 olacak ve istediğimiz sayı olmadığından 
+	// işleme eklemeyeceğiz. 
+	
+	for($k = 2;$k<$i;$k++){
+		// kontrolü yapıyoruz. 
+		// $i sayısından küçük bütün sayılara bölümünü yani modunu alıyoruz. 
+		// eğer kalan 0 olursa kontrolü 1 yapıyoruz. 
+		// bu sayı asal değildir.
+		if($i % $k == 0){
+			$kontrol = 1;
+		}	
+		
+	}
+
+	// Eğer hala kontrol 0 ise bu asaldır. 
+	// bu sayıları değişkenimize ekliyoruz. 
+	if($kontrol==0){
+		$asal_sayilar.= "$i, ";
+	}
+	
+	
+}
+// hem rastgele sayıyı hem de asal sayıları ekrana yazıyoruz. 
+echo "Rastele sayı: $rastgele <br> 
+	Asal sayılar: $asal_sayilar";
