@@ -1,3 +1,5 @@
+
+1.yol
 list1 = [0,1,2,3,4,5,6,7,8,9] 
   
   
@@ -11,6 +13,17 @@ for num in list1:
        print("En Büyük Sayı tek sayı:", max(list1))
        break
        
+ ------------------------------
+ 2.yol
+eldeki_liste = [0,1,2,3,4,5,6,7,8,9] 
+  
+def enBuyukTekSayi(ic_liste):
+    if max(ic_liste)%2==0:
+        ic_liste.remove(max(ic_liste))
+        enBuyukTekSayi(ic_liste)
+    return max(ic_liste)
+enBuyukTekSayi=enBuyukTekSayi(eldeki_liste)
+print(enBuyukTekSayi)
        
 -------------------------------
 
