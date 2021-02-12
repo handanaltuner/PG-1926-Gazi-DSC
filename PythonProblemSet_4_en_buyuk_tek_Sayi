@@ -9,6 +9,7 @@ for num in list1:
         
        print(num, end = " ")
        print("En Büyük Sayı tek sayı:", max(list1))
+       break
        
        
 -------------------------------
